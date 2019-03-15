@@ -5,7 +5,7 @@ This algorithm attempts to find the best (lowest energy) docking pose of a given
 
 rotation (function)
 
-For rotation of ligand matrices and computation of docking energy between the ligand and protein.
+For rotation of ligand matrices and computation of docking energy between the ligand and the protein.
 
 Note: This function requires cal_energy function to calculate energies and cal_energy function does not require additional arguments.
 
