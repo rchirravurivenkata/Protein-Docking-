@@ -16,7 +16,7 @@ Arguments:
 •	ligand - Matrix of ligand pdbm format
 •	protein  - Matrix of protein pdbm format
 Optional:
-•	iter – (By default = 100) Number of iterations required to loop through 0 to 360 degrees.
+•	iter – (default = 100) Number of iterations required to loop through 0 to 360 degrees.
 
 cal_energy (function)
 
