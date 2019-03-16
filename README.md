@@ -10,7 +10,7 @@ This algorithm attempts to find the best (lowest energy) docking pose of a given
 
 For rotation of ligand matrices and computation of docking energy between the ligand and the protein.
 
-Note: This function requires cal_energy function to calculate energies and cal_energy function does not require additional arguments.
+Note: This function requires ***cal_energy*** function to calculate energies and ***cal_energy*** function does not require additional arguments.
 
 #### Arguments of the function
 
@@ -23,12 +23,12 @@ Note: This function requires cal_energy function to calculate energies and cal_e
 ##### Optional:
 •	iter – (default = 100) Number of iterations required to loop through 0 to 360 degrees.
 
-****cal_energy*** (function)
+***cal_energy*** (function)
 
-If cal_energy function is used alone to calculate the docking energy, the arguments required are the same as rotation function except optional argument “iter”.
+If ***cal_energy*** function is used alone to calculate the docking energy, the arguments required are the same as rotation function except optional argument “iter”.
 
 
-## Docking algorithm expected results:
+## Usage and expected output:
 
 Please run the R script. It saves the rotation function and its dependent cal_energy function. Input the Lennard-Jones parameters, ligand and protein matrices. If needed, please specify the number of iterations required to rotate the ligand from 0 to 360 degrees. The rotation function concurrently performs rotations from 0 to 2pi and calculates energies of the rotated matrices. At the end it prints the rotation matrix associated with the lowest energy. It also writes the iterated degrees and their corresponding energies to a .csv file in the directory. 
 
